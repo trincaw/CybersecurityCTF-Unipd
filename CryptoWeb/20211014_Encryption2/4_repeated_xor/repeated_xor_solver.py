@@ -19,7 +19,7 @@ def hex2dec(text):
     return res
 
 secret = hex2dec(secret_hex)
-
+print(secret)
 #STEP 1: Key length identification
 #shift string -> it allows us the comparison
 def shift(text, key_length):
